@@ -1,0 +1,91 @@
+* {
+    font-family: 'Lora', serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.header__heading {
+    color: white;
+    font-weight: 400;
+    flex: 1;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__text {
+    color: #ffffff;
+    font-weight: 400;
+    flex: 1;
+    text-align: center;
+}
+
+.form {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    margin-top: 55px;
+    grid-template-columns: 170px 431px;
+    grid-template-rows: repeat(3, 60px) 120px repeat(3, 60px);
+    align-items: center;
+    grid-gap: 15px;
+}
+
+.input {
+    border: 1px solid #242424;
+    box-sizing: border-box;
+    border-radius: 0px;
+    padding: 11px 0px 14px 18px;
+    width: 338px;
+    height: 48px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.area {
+    border: 1px solid #242424;
+    box-sizing: border-box;
+    border-radius: 0px;
+    padding: 11px 0px 14px 18px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    height: 100px;
+}
+
+.checkboxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    margin-right: 20px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 5px;
+    width: 90px;
+    border: 0px;
+    cursor: pointer;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
